@@ -1,0 +1,22 @@
+<!-- The Team -->
+<section id="team">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2>The Team</h2>
+        </div>
+    </div>
+    <div class="row">
+		{% for member in site.team %}		
+		<div class="col-md-6">
+			<table cellpadding=15><tr>
+			<td><img class="img-round" src="img/team/{{ member.pic }}.png" /></td>
+			<td>	<h3>{{ member.name }}</h3>
+					{{ member.pos }}
+					<br/><span class="post-meta">{{ member.year }}</span></td>
+			</tr></table>
+		</div>
+		{% endfor %}
+	</div>
+    </div>
+</section>

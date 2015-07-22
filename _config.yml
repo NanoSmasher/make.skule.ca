@@ -1,0 +1,71 @@
+############################## Site settings ##############################
+
+title: M.A.K.E.
+subtitle: Multidisciplinary Analytical Kinesthetic Education
+email: make@make.skule.ca
+senpai: Henry Lu
+
+color:
+  primary: fff
+  secondary: 2c3e50
+  secondary-dark: 233140 
+
+markdown: kramdown
+permalink: '/events/:short_year:month:day/'
+relative_permalinks: false
+
+############################## Stuff you can touch  ##############################
+
+keywords: ['Multidisciplinary','Analytical','Kinesthetic','Education','UofT','Skule','Engineering','Club','Academic','First-Year']
+
+description: 'MAKE aims to apply scientific concepts relevant to first year engineering curriculum to practical projects. We hold sessions covering multidisciplinary engineering topics, providing students the opportunity to learn principles behind real world applications by building prototypes. We also focus on the design aspect of engineering, an important skill usually under-emphasized in a classroom setting. Through our events, engineering students will gain a better understanding of each engineering discipline as well as realize the applicability of their first year engineering education at UofT.'
+
+news: 'Annual General Meeting: September 2015'
+
+sponsors: ['CHEM','CIV','ECE','ENGSCI','MIE','MSE','ALUMNI']
+
+team:
+-  name: 'Micah Stickel'
+   pos: 'Club Advisor'
+   year: 'First Year Engineering Chair'
+   pic: 'MS'
+-  name: ' '
+   pos: ' '
+   year: ' '
+   pic: ' '
+-  name: 'Alan Li'
+   pos: 'Co-President'
+   year: 'CHEM 1T6'
+   pic: 'AL'
+-  name: 'Janany Ragunathan'
+   pos: 'Co-President'
+   year: 'CIV 1T4 + PEY'
+   pic: 'JR'
+-  name: 'Kevin Ton'
+   pos: 'Vice-President'
+   year: 'MSE 1T7'
+   pic: 'KT'
+-  name: 'Angela Chen'
+   pos: 'Sponsorship Director'
+   year: 'ENGSCI 1T8'
+   pic: 'AC'
+-  name: 'Katherine Junyi Sun'
+   pos: 'Finance Director'
+   year: 'ENGSCI 1T8'
+   pic: 'KJS'
+-  name: 'Ijaz Peerbocus'
+   pos: 'Marketing Director'
+   year: 'ENGSCI 1T8'
+   pic: 'IP'
+-  name: 'Florence Chan'
+   pos: 'Logistics Director'
+   year: 'ENGSCI 1T8'
+   pic: 'FC'
+-  name: 'Patrick Meredith-Karam'
+   pos: 'Technical Lead'
+   year: 'ENGSCI 1T8'
+   pic: 'PM-K'
+-  name: 'Henry Lu'
+   pos: 'Webmaster'
+   year: 'MSE 1T7'
+   pic: 'HL'
