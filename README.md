@@ -1,7 +1,7 @@
 M.A.K.E. Website theme
 ======================
 
-Website derived from [Jero's freelancer theme](https://github.com/jeromelachaud/freelancer-theme) which is in turn based on the [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/). This means I used Twitter Bootstrap just like every other website these days.
+Website derived from [Jero's freelancer theme](https://github.com/jeromelachaud/freelancer-theme) which is in turn based on the [Freelancer bootstrap theme](http://startbootstrap.com/templates/freelancer/). This means I used Twitter Bootstrap just like every other website these days.
 
 The website is currently being hosted by the [UofT Skule M.A.K.E. Club](http://make.skule.ca). Check it out!
 
@@ -40,18 +40,16 @@ Luckily, there is very little you need understand to actually change it up. All 
    - Description of website
    - Front page news bulletin
    - List of sponsors
-   - List of team members
-   - And more
+   - List of team members and more
 
-### Updating is as easy as 1, 2, 3!
+### Setting up is as easy as 1, 2, 3!
 
  1. Install Ruby, RubyDevKit, and Jekyll. Windows users can just download [Portable Jekyll](https://github.com/madhur/PortableJekyll/releases) and run setpath.cmd. (It's about one 1GB!)
  2. Go to the root folder where **index.html** is found and type in:
 
-```
-jekyll build
-```
-
+    ```
+    jekyll build
+    ```
  3. FTP (or manual copy files one by one) everything in the **_site** folder to wherever you want. It wil most likely be the **/public_html** folder.
 
 Voila! Thanks for reading ~ Nanosmasher

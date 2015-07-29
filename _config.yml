@@ -13,6 +13,7 @@ color:
 markdown: kramdown
 permalink: '/events/:short_year:month:day/'
 relative_permalinks: false
+include: [.htacess]
 exclude: [LICENCE,README.md]
 
 ############################## Stuff you can touch  ##############################
