@@ -13,6 +13,7 @@ color:
 markdown: kramdown
 permalink: '/events/:short_year:month:day/'
 relative_permalinks: false
+exclude: [LICENCE,README.md]
 
 ############################## Stuff you can touch  ##############################
 
@@ -32,7 +33,7 @@ team:
 -  name: ' '
    pos: ' '
    year: ' '
-   pic: ' '
+   pic: 'blank'
 -  name: 'Alan Li'
    pos: 'Co-President'
    year: 'CHEM 1T6'
@@ -59,7 +60,7 @@ team:
    pic: 'IP'
 -  name: 'Florence Chan'
    pos: 'Logistics Director'
-   year: 'ENGSCI 1T8'
+   year: 'ECE 1T8'
    pic: 'FC'
 -  name: 'Patrick Meredith-Karam'
    pos: 'Technical Lead'

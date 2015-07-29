@@ -34,8 +34,15 @@ section h2	{margin-bottom: 45px; font-size: 3em;}
 .navbar a:focus					{outline: 0;}
 .navbar .navbar-nav				{letter-spacing: 1px;}
 .navbar .navbar-nav li a:focus	{outline: 0;}
-.navbar-default,.navbar-inverse {border: 0;}
+.navbar-default,.navbar-inverse {border: 0;background-color: #{{ site.color.secondary }}}
 
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:hover {
+	color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:hover {
+	color: #{{ site.color.primary }};
+}
 /*	##################################################################################################
    	###                                          HEADER                                            ###
    	################################################################################################## */
@@ -92,7 +99,6 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
 	.navbar-fixed-top {
-	    padding: 25px 0;
 	    -webkit-transition: padding .3s;
 	    -moz-transition: padding .3s;
 	    transition: padding .3s;
