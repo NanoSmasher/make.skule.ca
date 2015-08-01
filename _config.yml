@@ -6,14 +6,14 @@ email: make@make.skule.ca
 senpai: Henry Lu
 
 color:
-  primary: fff
-  secondary: 2c3e50
-  secondary-dark: 233140 
+  regular: 2c3e50
+  light: 022A50
+  dark: 233140 
 
 markdown: kramdown
 permalink: '/events/:short_year:month:day/'
 relative_permalinks: false
-include: [.htacess]
+include: [.htaccess]
 exclude: [LICENCE,README.md]
 
 ############################## Stuff you can touch  ##############################
