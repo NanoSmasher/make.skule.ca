@@ -4,17 +4,30 @@ title: M.A.K.E.
 subtitle: Multidisciplinary Analytical Kinesthetic Education
 email: make@make.skule.ca
 senpai: Henry Lu
+project: https://github.com/nanosmasher/make.skule.ca
 
+# Google's indigo palette
 color:
-  regular: 2c3e50
-  light: 022A50
-  dark: 233140 
+    D50: e8eaf6
+    D100: c5cae9
+    D200: 9fa8da
+    D300: 7986cb
+    D400: 5c6bc0
+    D500: 3f51b5
+    D600: 3949ab
+    D700: 303f9f
+    D800: 283593
+    D900: 1a237e
+    A100: 8c9eff
+    A200: 536dfe
+    A400: 3d5afe
+    A700: 304ffe
 
 markdown: kramdown
 permalink: '/events/:short_year:month:day/'
 relative_permalinks: false
 include: [.htaccess]
-exclude: [LICENCE,README.md]
+exclude: [LICENSE,README.md]
 
 ############################## Stuff you can touch  ##############################
 

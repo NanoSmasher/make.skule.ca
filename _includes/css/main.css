@@ -34,7 +34,7 @@ section h2	{margin-bottom: 45px; font-size: 3em;}
 .navbar a:focus					{outline: 0;}
 .navbar .navbar-nav				{letter-spacing: 1px;}
 .navbar .navbar-nav li a:focus	{outline: 0;}
-.navbar-default,.navbar-inverse {border: 0;background-color: #{{ site.color.regular }}}
+.navbar-default,.navbar-inverse {border: 0;background-color: #{{ site.color.D500 }}}
 
 .navbar-default .navbar-brand,.navbar-default .navbar-brand:hover {
 	color: #FFF;
@@ -53,6 +53,7 @@ header {
 	background-position:center;
 	background-size:cover;
 	background-repeat:no-repeat;
+	height: 100vh;
 }
 
 header .container {
@@ -66,7 +67,7 @@ header img {
 }
 
 header .intro-text .name, header p, header h2 {
-	color: #fff;
+	color: #FFF;
 	display: block;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-shadow:
@@ -122,10 +123,33 @@ header .intro-text .skills {
 
 .navbar-default .navbar-nav > li > a			{color: #FFF;}
 .navbar-default .navbar-nav > li > a:focus		{color: #FFF;}
-.navbar-default .navbar-nav > li > a:hover		{color: #FFF;background-color:#{{ site.color.light }}}
-.navbar-default .navbar-nav > .active > a		{color: #FFF;background-color:#{{ site.color.light }}}
-.navbar-default .navbar-nav > .active > a:focus	{color: #FFF;background-color:#{{ site.color.light }}}
-.navbar-default .navbar-nav > .active > a:hover	{color: #FFF;background-color:#{{ site.color.light }}}
+.navbar-default .navbar-nav > li > a:hover		{color: #FFF;background-color:#{{ site.color.D600 }}}
+.navbar-default .navbar-nav > .active > a		{color: #FFF;background-color:#{{ site.color.D600 }}}
+.navbar-default .navbar-nav > .active > a:focus	{color: #FFF;background-color:#{{ site.color.D600 }}}
+.navbar-default .navbar-nav > .active > a:hover	{color: #FFF;background-color:#{{ site.color.D600 }}}
+
+/*	##################################################################################################
+   	###                                        EYECATCH                                            ###
+   	################################################################################################## */
+
+#eyecatch p {
+	padding: 15px 30px 0px;
+}
+
+#eyecatch svg {
+	background: #{{ site.color.A100 }};
+	border-radius: 100%;
+}
+#eyecatch svg:hover {
+	background: #{{ site.color.A200 }};
+}
+
+#eyecatch .svg-c path 		{fill: #fbc02d;}
+#eyecatch .svg-c:hover path {fill: #ffea00;}
+#eyecatch .svg-m path 		{fill: #33691e;}
+#eyecatch .svg-m:hover path {fill: #76ff03;}
+#eyecatch .svg-d path 		{fill: #212121;}
+#eyecatch .svg-d:hover path {fill: #9e9e9e;}
 
 /*	##################################################################################################
    	###                                          EVENTS                                            ###
@@ -152,14 +176,14 @@ header .intro-text .skills {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #{{site.color.A200}};
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
 #events .event-item .event-link .caption:hover {
-    opacity: 1;
+    opacity: 0.75;
 }
 
 #events .event-item .event-link .caption .caption-content {
@@ -170,7 +194,7 @@ header .intro-text .skills {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #FFF;
 }
 
 #events .event-item .event-link .caption .caption-content i {
@@ -183,7 +207,7 @@ header .intro-text .skills {
 }
 
 #events img{
-	 border:1px solid #021a40;
+	 border:1px solid #{{ site.color.D900 }};
 }
 
 #events * {
@@ -243,7 +267,7 @@ header .intro-text .skills {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.regular }};
+    background-color: #{{ site.color.D500 }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -253,7 +277,7 @@ header .intro-text .skills {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.regular }};
+    background-color: #{{ site.color.D500 }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -264,23 +288,29 @@ header .intro-text .skills {
    	###                                          FOOTER                                            ###
    	################################################################################################## */
 
-footer					{color: #fff;}
-footer .footer-above	{padding-top: 30px;background-color: #{{ site.color.regular }};}
+footer .footer-above	{padding-top: 30px;background-color: #{{ site.color.D500 }};}
 footer .footer-col		{margin-bottom: 30px;}
-footer .footer-below	{padding: 15px 0;background-color: #{{ site.color.dark }};}
+footer .footer-below	{padding: 15px 0;background-color: #{{ site.color.D900 }};}
 
 /*	##################################################################################################
-   	###                                            MISC                                            ###
+   	###                                  COLOR AND MISC                                            ###
    	################################################################################################## */
 
-#sponsors img {
-	padding: 15px;
-}
+#eyecatch	{background: #{{ site.color.D50 }};}
+#team		{background: #{{ site.color.A100 }};}
+#signup		{background: #{{ site.color.D50 }};}
+footer		{color: #FFF;}
 
-.btn			{background: #80B3FF;}
-.btn-primary	{background: #2c3e50; border: 0;}
+#team img		{padding: 15px;}
+#sponsors img	{padding: 15px;}
+.img-cnt	{margin: 0 auto;}
+
+.btn			{background: #{{ site.color.D200 }};}
+.btn-primary	{background: #{{ site.color.D500 }}; border: 0;}
 .btn:hover		{color: #000;}
 .btn i			{padding-top: 9px;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:active {background: #{{ site.color.D600 }};}
+.navbar-default .navbar-toggle .icon-bar {background: #{{ site.color.D900 }};}
 
 .scroll-top {
     z-index: 1049;
@@ -305,11 +335,11 @@ footer .footer-below	{padding: 15px 0;background-color: #{{ site.color.dark }};}
   height: 32px;
   width: 32px;
   border-radius: 100%;
-  fill: #fff;
+  fill: #FFF;
 }
 
 .icon:hover {
-  fill: #ddd;
+  fill: #DDD;
   transform: scale(1.25);
   -webkit-transform: scale(1.25);
   -ms-transform: scale(1.25);
@@ -318,8 +348,3 @@ footer .footer-below	{padding: 15px 0;background-color: #{{ site.color.dark }};}
 .icon-fb {background: #293F7E;}
 .icon-yt {background: #D32D20;}
 .icon-ml {background: #26D926;}
-
-.img-cnt	{margin: 0 auto;}
-#team		{background: #80B3FF;}
-#signup		{background: #E7EEF7;}
-#team img	{padding: 15px;}

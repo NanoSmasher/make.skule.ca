@@ -6,15 +6,15 @@ Website derived from [Jero's freelancer theme](https://github.com/jeromelachaud/
 The website is currently being hosted by the [UofT Skule M.A.K.E. Club](http://make.skule.ca). Check it out!
 
 Managing the website
-====================
+--------------------
 
-## Overview of site
+### Overview of site
 
 Jekyll is a static site builder that use:
 
  - Liquid Templating System
  - Markdown Post Rendering
- - A League Of Legends (lol)
+ - Leagues Of Legends (lol)
 
 The home page or **index.html** looks like this:
 
@@ -44,12 +44,27 @@ Luckily, there is very little you need understand to actually change it up. All 
 
 ### Setting up is as easy as 1, 2, 3!
 
- 1. Install Ruby, RubyDevKit, and Jekyll. Windows users can just download [Portable Jekyll](https://github.com/madhur/PortableJekyll/releases) and run setpath.cmd. (It's about one 1GB!)
+ 1. Install Ruby, RubyDevKit, and Jekyll. Windows users can just download [Portable Jekyll](https://github.com/madhur/PortableJekyll/releases) and run setpath.cmd. (Some zip programs have problems extracting so make sure to cross check with the repository)
  2. Go to the root folder where **index.html** is found and type in:
 
-    ```
+    ```shell
     jekyll build
     ```
- 3. FTP (or manual copy files one by one) everything in the **_site** folder to wherever you want. It wil most likely be the **/public_html** folder.
+ 3. FTP (or manually copy files one by one) everything in the **_site** folder to wherever you want. It wil most likely be the **/public_html** folder.
+
+Changes
+-------
+
+In terms of jekyll structure, there is not much difference between my code and Jero's. But looking at the sites side by side there is a huge difference. This is by no means exhaustive but here are some things I've adapted:
+
+ - Font: Switched from Font Awesome -> Glyphicons
+ - Icons: Some from [Modern UI Icons](http://modernuiicons.com/) and others found by [Ruandre](http://codepen.io/ruandre/pen/howFi)
+ - JS: Removed form-type scripts and updated to the newest BS.min
+ - CS: personalized main.css
+ - includes: a bunch of name changes and code changes
+ - Bootstrap: Regrouped certain sections with difference padding/margins
+ - Liquid: More looping tags
+ - Palette: Now uses the google material design palette
+ - Layout: just generally different
 
 Voila! Thanks for reading ~ Nanosmasher
