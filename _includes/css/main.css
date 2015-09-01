@@ -1,7 +1,5 @@
-/*!
- * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+/*
+ * Customized CSS. Merged with the power of jekyll.
  */
 
 body		{overflow-x: hidden; background-color: #FFF;}
@@ -142,6 +140,12 @@ header .intro-text .skills {
 }
 #eyecatch svg:hover {
 	background: #{{ site.color.A200 }};
+ 	transform: scale(1.25);
+	-webkit-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
 }
 
 #eyecatch .svg-c path 		{fill: #fbc02d;}
@@ -150,6 +154,20 @@ header .intro-text .skills {
 #eyecatch .svg-m:hover path {fill: #76ff03;}
 #eyecatch .svg-d path 		{fill: #212121;}
 #eyecatch .svg-d:hover path {fill: #9e9e9e;}
+
+#eyecatch a, #eyecatch a:hover, #eyecatch a:focus, #eyecatch a:active {text-decoration: none; color: #{{ site.color.D500 }};}
+
+@media(max-width:991px) {
+	#eyecatch svg {
+	    float: left;
+		margin: 1em 0 1em;
+	}
+	#eyecatch svg:hover {
+		transform: scale(1);
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+	}
+}
 
 /*	##################################################################################################
    	###                                          EVENTS                                            ###
@@ -177,9 +195,9 @@ header .intro-text .skills {
     height: 100%;
     opacity: 0;
     background: #{{site.color.A200}};
+    transition: all ease .5s;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
-    transition: all ease .5s;
 }
 
 #events .event-item .event-link .caption:hover {
@@ -258,32 +276,6 @@ header .intro-text .skills {
     cursor: pointer;
 }
 
-.event-modal .close-modal:hover {
-    opacity: .3;
-}
-
-.event-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    background-color: #{{ site.color.D500 }};
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.event-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    background-color: #{{ site.color.D500 }};
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-
 /*	##################################################################################################
    	###                                          FOOTER                                            ###
    	################################################################################################## */
@@ -304,6 +296,12 @@ footer		{color: #FFF;}
 #team img		{padding: 15px;}
 #sponsors img	{padding: 15px;}
 .img-cnt	{margin: 0 auto;}
+
+@media(max-width:991px) {
+	#blank {
+	    display: none;
+	}
+}
 
 .btn			{background: #{{ site.color.D200 }};}
 .btn-primary	{background: #{{ site.color.D500 }}; border: 0;}
@@ -330,19 +328,23 @@ footer		{color: #FFF;}
 }
 
 .icon {
-  margin: 10px;
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  border-radius: 100%;
-  fill: #FFF;
+	margin: 10px;
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	border-radius: 100%;
+	fill: #FFF;
 }
 
 .icon:hover {
-  fill: #DDD;
-  transform: scale(1.25);
-  -webkit-transform: scale(1.25);
-  -ms-transform: scale(1.25);
+	fill: #DDD;
+	transform: scale(1.25);
+	-webkit-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+
 }
 
 .icon-fb {background: #293F7E;}
