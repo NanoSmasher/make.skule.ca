@@ -35,7 +35,7 @@ keywords: ['Multidisciplinary','Analytical','Kinesthetic','Education','UofT','Sk
 
 description: 'MAKE aims to apply scientific concepts relevant to first year engineering curriculum to practical projects. We hold sessions covering multidisciplinary engineering topics, providing students the opportunity to learn principles behind real world applications by building prototypes. We also focus on the design aspect of engineering, an important skill usually under-emphasized in a classroom setting. Through our events, engineering students will gain a better understanding of each engineering discipline as well as realize the applicability of their first year engineering education at UofT.'
 
-news: 'Annual General Meeting: September 2015'
+news: 'Annual General Meeting: Tuesday Sept. 15th'
 
 sponsors: ['CHEM','CIV','ECE','ENGSCI','MIE','MSE','ALUMNI']
 
@@ -66,7 +66,7 @@ team:
    pic: 'AC'
 -  name: 'Katherine Junyi Sun'
    pos: 'Finance Director'
-   year: 'ENGSCI 1T8'
+   year: 'ECE 1T8'
    pic: 'KJS'
 -  name: 'Ijaz Peerbocus'
    pos: 'Marketing Director'
@@ -74,7 +74,7 @@ team:
    pic: 'IP'
 -  name: 'Florence Chan'
    pos: 'Logistics Director'
-   year: 'ECE 1T8'
+   year: 'ENGSCI 1T8'
    pic: 'FC'
 -  name: 'Patrick Meredith-Karam'
    pos: 'Technical Lead'
