@@ -2,7 +2,7 @@
 <section id="events">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-xs-12 text-center">
                 <h2>Past Events</h2>
 			</div>
 		</div>
@@ -17,16 +17,16 @@
 
 
 		<div class="row">
-			<div class="col-sm-3 event-item">	
+			<div class="col-xs-6 col-sm-3 event-item">
 				<a class="event-link">
 				<!-- The silliest inline style editing I have ever done. -->
 				<div class="caption" style="opacity:1"><div class="caption-content"><h1 style="margin-top:0px">{{ next }}</h1></div></div>
-				<img src="img/events/blank.jpg" class="img-responsive" />	
+				<img src="/img/events/blank.jpg" class="img-responsive" />	
 			</a>			
 			</div>
         {% assign current = next %}
     {% endif %}
-			<div class="col-sm-3 event-item">
+			<div class="col-xs-6 col-sm-3 event-item">
 				<a href="#{{ post.date | date: "%y%m%d" }}" class="event-link" data-toggle="modal">
 					<div class="caption"><div class="caption-content">{{ post.title }}</div></div>
 					<img src="img/events/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}" />
