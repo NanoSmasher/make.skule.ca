@@ -291,6 +291,7 @@ footer .footer-below	{padding: 15px 0;background-color: #{{ site.color.D900 }};}
 #eyecatch	{background: #{{ site.color.D50 }};}
 #team		{background: #{{ site.color.A100 }};}
 #signup		{background: #{{ site.color.D50 }};}
+#exec_signup		{background: #{{ site.color.A200 }};}
 footer		{color: #FFF;}
 
 #team img		{padding: 15px;}
